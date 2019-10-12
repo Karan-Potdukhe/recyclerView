@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="PAMPHLET WORLD"
+         android:textSize="20dp"
+         android:textAlignment="center"
+         android:background="#F76D41"
+         android:textColor="#0f0f0f"
+         android:textStyle="bold"/>
+     <SearchView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="#F8F4F4"
+         android:textAlignment="center"
+         />
+
+     <androidx.recyclerview.widget.RecyclerView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/recyclerView"
+       android:scrollbars="vertical">
+     </androidx.recyclerview.widget.RecyclerView>
+
+     <androidx.recyclerview.widget.RecyclerView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/recyclerView1"
+         android:padding="10dp"
+         android:scrollbars="vertical">
+     </androidx.recyclerview.widget.RecyclerView>
+
+
+
+</LinearLayout>

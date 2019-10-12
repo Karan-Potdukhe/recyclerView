@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Recyclerview</string>
+
+
+    <string-array name="Quantity">
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+    </string-array>
+    <string-array name="sides">
+        <item>FrontBack </item>
+        <item>SingleSide</item>
+    </string-array>
+
+    <string-array name="Quantitycard">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>600</item>
+        <item>700</item>
+        <item>800</item>
+        <item>900</item>
+        <item>1000</item>
+    </string-array>
+</resources>
+
